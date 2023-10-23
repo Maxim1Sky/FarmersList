@@ -10,11 +10,14 @@ class Cart {
   }
 
   removeProduct(product) {
-    let index = this.products.indexOf(product);
-    if (index > -1) {
-      array.splice(index, 1);
-      this.total -= product.price;
-    }
+    // let index = this.products.indexOf(product);
+    // if (index > -1) {
+    //   array.splice(index, 1);
+    //   this.total -= product.price;
+    // }
+
+    this.total -= this.products[product].price;
+    this.products.splice(product, 1);
   }
 }
 

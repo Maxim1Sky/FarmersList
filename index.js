@@ -2,18 +2,18 @@
 const Product = require("./classes/Product");
 const Cart = require("./classes/Cart");
 
-const carrots = new Product(
-  "Carrots",
-  4,
-  "Bushel of carrots that have been freshly harvested for you"
-);
-const apples = new Product("Apples", 8, "Very tasty apples");
+// const carrots = new Product(
+//   "Carrots",
+//   4,
+//   "Bushel of carrots that have been freshly harvested for you"
+// );
+// const apples = new Product("Apples", 8, "Very tasty apples");
 
-const testingCart = new Cart();
+// const testingCart = new Cart();
 
-testingCart.addProduct(carrots);
-testingCart.addProduct(apples);
-console.log(testingCart.total);
+// testingCart.addProduct(carrots);
+// testingCart.addProduct(apples);
+// console.log(testingCart.total);
 
 // DO NOT EDIT BELOW THIS LINE
 try {
